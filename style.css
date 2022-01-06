@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #777;
+}
+section{
+    padding: 49px 81px 55px 80px;
+}
+img{
+    width: 100%;
+}
+.header{
+   padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header-text{
+    flex: 1;
+    padding-right: 70px;
+}
+.header-container-box{
+    width: 40%;
+}
+.site-heading{
+    font-size: 60px;
+    display: block;
+    padding-left: 10px;
+    text-transform: uppercase;
+    border-width: 5px;
+    border-style: solid;
+    border-image: linear-gradient(to bottom, red, rgba(0, 0, 0, 0)) 1 0 1 100%;
+}
+.heading-description{
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+    color: lightslategray;
+    margin: 20px 75px 0 16px;
+}
+.header-btn{
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.button{
+    padding: 5px 50px 5px 50px;
+    background-color: rgba(238, 41, 15, 0.87);
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    color: antiquewhite;
+    display: inline-block;
+}
+.heading-span{
+    color: #d350ff;
+    display: block;
+    font-size: 40px;
+    line-height: 68px;
+}
+.heading-excerpt{
+    font-weight: 700;
+    color: black;
+    font-size: 16px;
+    margin-left: 13px;
+    margin-top: 14px;
+}
+.header-image{
+    flex: 1;
+    position: relative;
+}
+.header-image-container::before{
+    content: "";
+    position: absolute;
+    background-image: url(./img/shape.png);
+    opacity: 0.5;
+    background-size:350px;
+    width: 350px;
+    height: 350px;
+    background-repeat: no-repeat;
+
+}
+
+.header-image img {
+    position: relative;
+    width: 300px;
+    height: auto;
+    margin: 22px 0px 0px 39px;
+}
+.goals-heading{
+    text-align: center;
+    padding: 20px 20px;
+    font-weight: 700;
+    font-size: 50px;
+}
+.goals-heading span{
+    color: #d350ff;
+}
+.goals-parts-section{
+    display: flex;
+
+}
+.goal-parts{
+    width: 30%;
+    border-radius: 20px;
+    padding: 31px 28px 47px 11px;
+    margin: 31px 28px 47px 11px;
+}
+
+.goal-parts img{
+    width: 130px;
+    height: auto;
+}
+.goal-parts-heading{
+    padding-left: 20px;
+}
+.goal-parts p{
+    padding-left: 20px;
+    font-weight: 700;
+    color: black;
+}
+.part01{
+    flex: 1;
+    background-color: rgba(211, 80, 255, 0.2);
+}
+.part02{
+    flex: 1;
+    margin-left: 20px;
+    background-color: rgba(92, 255, 80, 0.2);
+}
+.part03{
+    flex: 1;
+    margin-left: 20px;
+    background-color: rgb(245, 66, 66, 0.2);
+}
+.learing{
+    display: flex;
+}
+.learning-img{
+    flex: 1;
+    padding-left: 10px;
+}
+.learning-img img{
+    width: 350px;
+    height: auto;
+}
+.learning-text{
+    flex: 2;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.learning-heading{
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+}
+.learing-description{
+    font-size: 17px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.sharing{
+    display: flex;
+    padding-top: 90px;
+}
+.sharing-img{
+    flex: 1;
+    padding-left: 10px;
+}
+.sharing img{
+    width: 350px;
+    height: auto;
+}
+.sharing-text{
+    flex: 2;
+    padding-right: 50px;
+    margin-right: 10px;
+}
+.sharing-heading{
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+}
+.sharing-description{
+    font-size: 17px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.passion h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    color: black;
+    padding-bottom: 50px
+}
+.passion-container{
+    display: flex;
+}
+.passion-text{
+    flex: 1;
+}
+.passion-text ul{
+    padding-top: 65px;
+}
+.passion-text ul li{
+    list-style: none;
+    font-size: 24px;
+    color: brown;
+}
+.passion-img{
+    flex: 1;
+    padding-left: 100px;
+}
+.passion-img img{
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+}
+.footer{
+    background: black;
+    color: #fff;
+    text-align: center;
+    padding: 32px 0px 47px 0px;
+}
+.footer-heading{
+    font-size: 35px;
+    font-family: "The Nautigal";
+}
+.footer-heading span{
+    color: fuchsia;
+}
+.footer p{
+    font-size: 16px;
+}
